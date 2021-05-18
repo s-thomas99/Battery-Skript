@@ -1,0 +1,9 @@
+#!/bin/bash
+while [ true ] ;
+do
+echo `acpi`
+echo `uptime`
+sleep 30s
+done
+
+exit
